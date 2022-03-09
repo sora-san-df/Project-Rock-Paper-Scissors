@@ -11,8 +11,8 @@ function computerPlay() {
 
 
 
-const playerSelection = prompt("Choose bteween: Rock, Paper and Scissors");
-const computerSelection = computerPlay();
+//const playerSelection = prompt("Choose bteween: Rock, Paper and Scissors");
+//const computerSelection = computerPlay();
 
 function playRound(playerSelection, computerSelection){
 
@@ -34,16 +34,23 @@ function playRound(playerSelection, computerSelection){
     
 }
 
-console.log(playRound(playerSelection, computerSelection));
 
 
 
-/*function game(){
+
+function game(){
+  
+
+ 
     for (let i = 0; i < 5; i++) {
-        console.log(playRound(playerSelection, computerPlay()));
-        
+        const playerSelection = prompt("Choose bteween: Rock, Paper and Scissors");
+        const computerSelection = computerPlay();
+        console.log(playRound(playerSelection, computerSelection));
+     
     }
+  
+ 
 }
 
 
-game();*/
+game()
